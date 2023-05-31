@@ -1,0 +1,46 @@
+{
+  "name": "cryptoinform",
+  "license": "GNU General Public License v3.0",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server:ssl": "node server",
+    "server:proxy": "npx local-ssl-proxy --key ./server/ssl/localhost.key --cert ./server/ssl/localhost.crt --source 443 --target 3000"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.6.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "formik": "^2.4.0",
+    "framer-motion": "^10.12.16",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-vertical-timeline-component": "^3.6.0",
+    "telegram-login-button": "^0.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "@types/react-vertical-timeline-component": "^3.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "8.41.0",
+    "eslint-config-next": "^13.4.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=16.16.0",
+    "yarn": "^1.22.19"
+  }
+}
