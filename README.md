@@ -153,8 +153,5 @@ yarn build
 
 
 ## Reference
-- [How to Create Trusted Self-Signed SSL Certificates and Local Domains for Testing](https://betterprogramming.pub/trusted-self-signed-certificate-and-local-domains-for-testing-7c6e6e3f9548)
-- [Create certificate for localhost domains on macOS](https://mixable.blog/create-certificate-for-localhost-domains-on-macos/)
-- [How to use local domain name instead local ip address in Mac?](https://stackoverflow.com/questions/72947732/how-to-use-local-domain-name-instead-local-ip-address-in-mac)
-
+- [如何在MacOS上建立Local HTTPS Server & 使用Custom Domain存取網站 with Node.js](https://northbei.medium.com/%E5%A6%82%E4%BD%95%E5%9C%A8macos%E6%9C%AC%E5%9C%B0%E7%AB%AF%E5%BB%BA%E7%AB%8Bhttps-server-%E4%BD%BF%E7%94%A8custom-domain-%E5%AD%98%E5%8F%96%E7%B6%B2%E7%AB%99-with-next-js-364103684669)
 
