@@ -5,10 +5,10 @@ default_md = sha256
 distinguished_name = dn
 
 [dn]
-C=TW
-ST=Taiwan
-L=Taipei
-O=CryptoInform
-OU=Dev
-emailAddress=dev@cryptoinform.app
+C=TW # 國別
+ST=Taiwan # 國名
+L=Taipei # 城市
+O=CryptoInform # 組織名稱
+OU=Dev # 組織底下的部門名稱
+emailAddress=dev@cryptoinform.app # 聯絡用email
 CN = localhost
