@@ -1,10 +1,18 @@
 # Cryptoinform
-<img width="475" alt="image" src="https://github.com/NorthBei/cryptoinform/assets/15665709/80f7e087-7138-4027-a166-7a6621788a30">
-
-## Project Intro
-Get Valuable Crypto Investment Opportunities Notifications with CryptoInform!
-
+⚠ Our services be terminated on 2023/06/01. We apologize for any inconvenience caused and appreciate your support.
+<kbd>
 ![cover](https://github.com/NorthBei/cryptoinform/assets/15665709/7ae8c643-0187-4ef7-b01f-fb303481f99d)
+</kbd>
+## Project Intro
+
+
+### Introduction
+
+CryptoInform is a powerful platform designed to keep you informed about valuable crypto investment opportunities. Say goodbye to missing out on lucrative ICOs, IDOs, IEOs, and airdrops, as our platform delivers continuous notifications directly to your Telegram.
+
+Getting started is quick and effortless. In just 3 minutes, you can begin receiving essential notifications that can help you seize profitable investments.
+
+Let's Get Valuable Crypto Investment Opportunities Notifications with CryptoInform!
 
 ### Mission
 
@@ -15,11 +23,7 @@ Make great crypto information as easy as drinking water, everywhere, for everyon
 Getting rid of people swamped with tons of chores, making everyones’ life could be more convenient and be focus on more valuable things.
 將瑣碎的小事撿起，讓每個人能夠更專注在更有價值的事物
 
-### Introduction
 
-CryptoInform is a powerful platform designed to keep you informed about valuable crypto investment opportunities. Say goodbye to missing out on lucrative ICOs, IDOs, IEOs, and airdrops, as our platform delivers continuous notifications directly to your Telegram.
-
-Getting started is quick and effortless. In just 3 minutes, you can begin receiving essential notifications that can help you seize profitable investments.
 
 #### Here's how it works:
 <img width="1129" alt="image" src="https://github.com/NorthBei/cryptoinform/assets/15665709/f5c73ca6-c8be-44bf-869f-a2183ccc4b5d">
@@ -59,13 +63,13 @@ Join CryptoInform and never miss any investment opportunity.
 
 ### Screenshots/Film
 
-**Home**
+**Home Page**
 
 | PC | Moblie |
 |-|-|
 |![image](https://github.com/NorthBei/cryptoinform/assets/15665709/46b8fdbd-a2cb-4165-be45-8d2f5dce514c)|![image](https://github.com/NorthBei/cryptoinform/assets/15665709/cf6b70d0-7e47-4fcd-9731-5bc15bd09e30)|
 
-**Settings**
+**Settings Page**
 
 - PC
 
@@ -88,9 +92,12 @@ Join CryptoInform and never miss any investment opportunity.
 
 ## Development Instruction
 
-### Enviroment
-- Node.js: v16.16.0
-- yarn: v1.22.19
+### Environment
+
+|Service|Version|
+|-|-|
+|Node.js|v16.16.0|
+|yarn| v1.22.19|
 
 ### Getting Started
 
@@ -109,7 +116,7 @@ Install all package
 yarn install
 ```
 
-### Run Development Server
+### Start Development
 
 Run **http** web server at http://localhost:3000 for development
 <img width="1552" alt="image" src="https://github.com/NorthBei/cryptoinform/assets/15665709/cf835792-7810-4feb-95f9-ed513579692b">
@@ -137,15 +144,18 @@ yarn dev
 yarn server:proxy
 ```
 
-### Run Lint for all .js/.ts/.tsx file
+### Lint all files
+
+Run lint for all `.js`, `.ts`, `.tsx` files by eslint
 
 ```zsh
 yarn lint
 ```
 
-### Run Build for Static Site Generation (SSG)
+### Build Production (Next.js SSG)
 
-In Next.js 13, we could run below command directly for SSG
+Run below command to build this project by Next.js Static Site Generation (SSG) service.<br>
+In Next.js 13, we could run `next build` directly, instead of `next export` after setting up `next.config.js`.
 
 ```zsh
 yarn build
