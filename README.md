@@ -96,7 +96,7 @@ Join CryptoInform and never miss any investment opportunity.
 
 |Service|Version|
 |-|-|
-|Node.js|v16.16.0|
+|Node.js|v18.16.0|
 |yarn| v1.22.19|
 
 ### Getting Started
